@@ -1,0 +1,21 @@
+2026-01-31 17:12:36,142 - httpx - INFO - HTTP Request: GET http://testserver/api/estatisticas "HTTP/1.1 200 OK"
+2026-01-31 17:12:36,180 - httpx - INFO - HTTP Request: GET http://testserver/api/operadoras?page=1&limit=5 "HTTP/1.1 200 OK"
+2026-01-31 17:12:36,209 - httpx - INFO - HTTP Request: GET http://testserver/api/operadoras/11.222.333/0001-81/despesas "HTTP/1.1 404 Not Found"
+2026-01-31 17:12:36,214 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-31 17:12:36,214 - utils - INFO - Limpando dados...
+2026-01-31 17:12:36,222 - utils - WARNING -   1 CNPJs inválidos encontrados
+2026-01-31 17:12:36,225 - utils - WARNING -   Valores nulos: 0
+2026-01-31 17:12:36,226 - utils - WARNING -   Valores negativos: 1
+2026-01-31 17:12:36,226 - utils - WARNING -   Valores zerados: 1
+2026-01-31 17:12:36,230 - utils - INFO - ✓ Limpeza concluída. 2 registros com inconsistências
+2026-01-31 17:14:48,111 - httpx - INFO - HTTP Request: GET http://testserver/api/estatisticas "HTTP/1.1 200 OK"
+2026-01-31 17:14:48,143 - httpx - INFO - HTTP Request: GET http://testserver/api/operadoras?page=1&limit=5 "HTTP/1.1 200 OK"
+2026-01-31 17:14:48,176 - httpx - INFO - HTTP Request: GET http://testserver/api/operadoras/11222333000181/despesas "HTTP/1.1 200 OK"
+2026-01-31 17:14:48,209 - httpx - INFO - HTTP Request: GET http://testserver/api/operadoras/00000000000000 "HTTP/1.1 404 Not Found"
+2026-01-31 17:14:48,212 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-31 17:14:48,213 - utils - INFO - Limpando dados...
+2026-01-31 17:14:48,218 - utils - WARNING -   1 CNPJs inválidos encontrados
+2026-01-31 17:14:48,221 - utils - WARNING -   Valores nulos: 0
+2026-01-31 17:14:48,221 - utils - WARNING -   Valores negativos: 1
+2026-01-31 17:14:48,221 - utils - WARNING -   Valores zerados: 1
+2026-01-31 17:14:48,224 - utils - INFO - ✓ Limpeza concluída. 2 registros com inconsistências

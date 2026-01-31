@@ -411,7 +411,7 @@ class ProcessadorArquivos:
         df_limpo['inconsistencia_flag'] = ''
         
         # 1. Limpar strings (remover espaços extras)
-        colunas_string = df_limpo.select_dtypes(include=['object']).columns
+        colunas_string = df_limpo.select_dtypes(include=['string', 'object']).columns
         for col in colunas_string:
             if col in df_limpo.columns:
                 df_limpo[col] = df_limpo[col].astype(str).str.strip()

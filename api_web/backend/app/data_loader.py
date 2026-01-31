@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -474,7 +474,7 @@ class DataRepository:
         }
 
     def obter_estatisticas(self) -> dict:
-        agora = datetime.utcnow()
+        agora = datetime.now(timezone.utc)
         if self._cache_stats and self._cache_stats.expira_em > agora:
             return self._cache_stats.valor
 
