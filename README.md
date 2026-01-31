@@ -226,6 +226,5 @@ As decisões e trade-offs solicitados no enunciado estão detalhados em `JUSTIFI
 
 Testes unitários (ETL) e da API:
 ```
-pip install -r requirements.txt
 python -m unittest discover -s tests -p "test_*.py"
 ```
