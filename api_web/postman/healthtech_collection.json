@@ -1,0 +1,83 @@
+{
+  "info": {
+    "name": "Healthtech API - Operadoras",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Listar operadoras",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/operadoras?page=1&limit=10",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "operadoras"],
+          "query": [
+            { "key": "page", "value": "1" },
+            { "key": "limit", "value": "10" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar operadoras (filtro)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/operadoras?page=1&limit=10&search=AMIL",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "operadoras"],
+          "query": [
+            { "key": "page", "value": "1" },
+            { "key": "limit", "value": "10" },
+            { "key": "search", "value": "AMIL" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Detalhe operadora",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/operadoras/12345678000190",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "operadoras", "12345678000190"]
+        }
+      }
+    },
+    {
+      "name": "Historico de despesas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/operadoras/12345678000190/despesas",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "operadoras", "12345678000190", "despesas"]
+        }
+      }
+    },
+    {
+      "name": "Estatisticas",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/estatisticas",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "estatisticas"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8000"
+    }
+  ]
+}

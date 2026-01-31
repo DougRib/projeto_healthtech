@@ -1,0 +1,525 @@
+2026-01-29 13:03:03,339 - utils - INFO - Downloader iniciado. Destino: data\raw
+2026-01-29 13:03:03,340 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-29 13:03:03,341 - utils - INFO - ======================================================================
+2026-01-29 13:03:03,341 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-29 13:03:03,341 - utils - INFO - ======================================================================
+2026-01-29 13:03:03,342 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-29 13:03:03,342 - utils - INFO - === Iniciando download do trimestre 2025/Q4 ===
+2026-01-29 13:03:03,343 - utils - INFO - Listando arquivos do trimestre 2025/Q4
+2026-01-29 13:03:03,981 - utils - ERROR - Erro ao listar arquivos: 404 Client Error: Not Found for url: https://dadosabertos.ans.gov.br/FTP/PDA/demonstracoes_contabeis/2025/4T/
+2026-01-29 13:03:03,982 - utils - WARNING - Nenhum arquivo encontrado para 2025/Q4
+2026-01-29 13:03:05,983 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-29 13:03:05,984 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-29 13:03:06,027 - utils - ERROR - Erro ao listar arquivos: 404 Client Error: Not Found for url: https://dadosabertos.ans.gov.br/FTP/PDA/demonstracoes_contabeis/2025/3T/
+2026-01-29 13:03:06,027 - utils - WARNING - Nenhum arquivo encontrado para 2025/Q3
+2026-01-29 13:03:08,028 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-29 13:03:08,029 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-29 13:03:08,076 - utils - ERROR - Erro ao listar arquivos: 404 Client Error: Not Found for url: https://dadosabertos.ans.gov.br/FTP/PDA/demonstracoes_contabeis/2025/2T/
+2026-01-29 13:03:08,076 - utils - WARNING - Nenhum arquivo encontrado para 2025/Q2
+2026-01-29 13:03:08,077 - utils - INFO - Download concluído. Total: 0 arquivos
+2026-01-29 13:03:08,078 - utils - WARNING -   Nenhum arquivo para processar em 2025/Q4
+2026-01-29 13:03:08,078 - utils - WARNING -   Nenhum arquivo para processar em 2025/Q3
+2026-01-29 13:03:08,079 - utils - WARNING -   Nenhum arquivo para processar em 2025/Q2
+2026-01-29 13:03:08,079 - utils - ERROR - ERRO CRÍTICO na Etapa 1: Nenhum dado foi processado com sucesso!
+2026-01-29 13:03:08,079 - utils - ERROR - Erro fatal: Nenhum dado foi processado com sucesso!
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 332, in main
+    arquivo_gerado = integrador.executar(quantidade_trimestres=3)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 122, in executar
+    raise Exception("Nenhum dado foi processado com sucesso!")
+Exception: Nenhum dado foi processado com sucesso!
+2026-01-29 13:05:47,773 - utils - INFO - Downloader iniciado. Destino: data\raw
+2026-01-29 13:05:47,774 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-29 13:05:47,775 - utils - INFO - ======================================================================
+2026-01-29 13:05:47,775 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-29 13:05:47,775 - utils - INFO - ======================================================================
+2026-01-29 13:05:47,776 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-29 13:05:49,092 - utils - WARNING - Nenhum trimestre disponível encontrado na ANS
+2026-01-29 13:05:49,092 - utils - ERROR - ERRO CRÍTICO na Etapa 1: Nenhum arquivo foi baixado!
+2026-01-29 13:05:49,093 - utils - ERROR - Erro fatal: Nenhum arquivo foi baixado!
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 332, in main
+    arquivo_gerado = integrador.executar(quantidade_trimestres=3)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 90, in executar
+    raise Exception("Nenhum arquivo foi baixado!")
+Exception: Nenhum arquivo foi baixado!
+2026-01-29 13:14:23,228 - utils - INFO - Downloader iniciado. Destino: data\raw
+2026-01-29 13:14:23,229 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-29 13:14:23,229 - utils - INFO - ======================================================================
+2026-01-29 13:14:23,230 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-29 13:14:23,230 - utils - INFO - ======================================================================
+2026-01-29 13:14:23,231 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-29 13:14:24,549 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-29 13:14:24,549 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-29 13:14:24,637 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 13:14:24,637 - utils - INFO - Baixando 2025_Q3_3T2025.zip (tentativa 1/3)
+2026-01-29 13:14:25,316 - utils - INFO - ✓ Download concluído: 2025_Q3_3T2025.zip
+2026-01-29 13:14:25,317 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-29 13:14:27,318 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-29 13:14:27,318 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-29 13:14:27,401 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 13:14:27,402 - utils - INFO - Baixando 2025_Q2_2T2025.zip (tentativa 1/3)
+2026-01-29 13:14:28,126 - utils - INFO - ✓ Download concluído: 2025_Q2_2T2025.zip
+2026-01-29 13:14:28,126 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-29 13:14:30,128 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-29 13:14:30,129 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-29 13:14:30,223 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 13:14:30,224 - utils - INFO - Baixando 2025_Q1_1T2025.zip (tentativa 1/3)
+2026-01-29 13:14:30,844 - utils - INFO - ✓ Download concluído: 2025_Q1_1T2025.zip
+2026-01-29 13:14:30,845 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-29 13:14:30,846 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-29 13:14:30,847 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-29 13:14:30,847 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-29 13:14:31,088 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 13:14:31,643 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-29 13:14:31,675 - utils - WARNING - Algumas colunas não foram mapeadas. Tentando identificação por posição...
+2026-01-29 13:14:31,688 - utils - INFO - ✓ Colunas normalizadas: ['CNPJ', 'RazaoSocial', 'Trimestre', 'Ano', 'ValorDespesas']
+2026-01-29 13:14:31,703 - utils - INFO - Limpando dados...
+2026-01-29 13:15:20,100 - utils - WARNING -   711943 CNPJs inválidos encontrados
+2026-01-29 13:15:20,165 - utils - WARNING -   Valores nulos: 0
+2026-01-29 13:15:20,166 - utils - WARNING -   Valores negativos: 54686
+2026-01-29 13:15:20,167 - utils - WARNING -   Valores zerados: 235620
+2026-01-29 13:15:21,255 - utils - WARNING -   1 CNPJs com razões sociais diferentes
+2026-01-29 13:15:21,563 - utils - INFO - ✓ Limpeza concluída. 711943 registros com inconsistências
+2026-01-29 13:15:21,570 - utils - INFO - ✓ Consolidados 1 arquivos em 711943 registros
+2026-01-29 13:15:21,571 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-29 13:15:21,571 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-29 13:15:21,783 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 13:15:22,279 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-29 13:15:22,299 - utils - WARNING - Algumas colunas não foram mapeadas. Tentando identificação por posição...
+2026-01-29 13:15:22,308 - utils - INFO - ✓ Colunas normalizadas: ['CNPJ', 'RazaoSocial', 'Trimestre', 'Ano', 'ValorDespesas']
+2026-01-29 13:15:22,315 - utils - INFO - Limpando dados...
+2026-01-29 13:16:10,462 - utils - WARNING -   696591 CNPJs inválidos encontrados
+2026-01-29 13:16:10,528 - utils - WARNING -   Valores nulos: 0
+2026-01-29 13:16:10,529 - utils - WARNING -   Valores negativos: 52970
+2026-01-29 13:16:10,531 - utils - WARNING -   Valores zerados: 231893
+2026-01-29 13:16:11,489 - utils - WARNING -   1 CNPJs com razões sociais diferentes
+2026-01-29 13:16:11,742 - utils - INFO - ✓ Limpeza concluída. 696591 registros com inconsistências
+2026-01-29 13:16:11,747 - utils - INFO - ✓ Consolidados 1 arquivos em 696591 registros
+2026-01-29 13:16:11,748 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-29 13:16:11,748 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-29 13:16:11,940 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 13:16:12,428 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-29 13:16:12,447 - utils - WARNING - Algumas colunas não foram mapeadas. Tentando identificação por posição...
+2026-01-29 13:16:12,457 - utils - INFO - ✓ Colunas normalizadas: ['CNPJ', 'RazaoSocial', 'Trimestre', 'Ano', 'ValorDespesas']
+2026-01-29 13:16:12,465 - utils - INFO - Limpando dados...
+2026-01-29 13:16:59,301 - utils - WARNING -   705390 CNPJs inválidos encontrados
+2026-01-29 13:16:59,401 - utils - WARNING -   Valores nulos: 0
+2026-01-29 13:16:59,401 - utils - WARNING -   Valores negativos: 16787
+2026-01-29 13:16:59,402 - utils - WARNING -   Valores zerados: 510484
+2026-01-29 13:17:00,450 - utils - WARNING -   1 CNPJs com razões sociais diferentes
+2026-01-29 13:17:00,709 - utils - INFO - ✓ Limpeza concluída. 705390 registros com inconsistências
+2026-01-29 13:17:00,715 - utils - INFO - ✓ Consolidados 1 arquivos em 705390 registros
+2026-01-29 13:17:00,716 - utils - INFO - Consolidando 3 DataFrames...
+2026-01-29 13:17:02,974 - utils - INFO - ✓ Consolidação concluída: 2113924 registros
+2026-01-29 13:17:15,917 - utils - INFO - Arquivo final gerado: output\consolidado_despesas.zip
+2026-01-29 13:17:15,927 - utils - ERROR - ERRO CRÍTICO na Etapa 1: 'DataFrame' object has no attribute 'unique'
+2026-01-29 13:17:15,928 - utils - ERROR - Erro fatal: 'DataFrame' object has no attribute 'unique'
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 332, in main
+    arquivo_gerado = integrador.executar(quantidade_trimestres=3)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 140, in executar
+    self._gerar_relatorio(
+    ~~~~~~~~~~~~~~~~~~~~~^
+        df_final,
+        ^^^^^^^^^
+        resultados_download,
+        ^^^^^^^^^^^^^^^^^^^^
+        tempo_decorrido(inicio)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 266, in _gerar_relatorio
+    trimestres_unicos = sorted(trimestres_series.unique(), reverse=True)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\generic.py", line 6206, in __getattr__
+    return object.__getattribute__(self, name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'unique'. Did you mean: 'nunique'?
+2026-01-29 13:18:56,080 - utils - INFO - Downloader iniciado. Destino: data\raw
+2026-01-29 13:18:56,081 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-29 13:18:56,082 - utils - INFO - ======================================================================
+2026-01-29 13:18:56,083 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-29 13:18:56,083 - utils - INFO - ======================================================================
+2026-01-29 13:18:56,083 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-29 13:18:57,565 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-29 13:18:57,565 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-29 13:18:57,649 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 13:18:57,650 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-29 13:18:57,650 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-29 13:18:59,652 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-29 13:18:59,652 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-29 13:18:59,763 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 13:18:59,764 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-29 13:18:59,764 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-29 13:19:01,765 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-29 13:19:01,765 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-29 13:19:01,859 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 13:19:01,860 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-29 13:19:01,860 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-29 13:19:01,862 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-29 13:19:01,863 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-29 13:19:01,863 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-29 13:19:02,066 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 13:19:02,577 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-29 13:19:02,599 - utils - WARNING - Algumas colunas não foram mapeadas. Tentando identificação por posição...
+2026-01-29 13:19:02,608 - utils - INFO - ✓ Colunas normalizadas: ['CNPJ', 'RazaoSocial', 'Trimestre', 'Ano', 'ValorDespesas']
+2026-01-29 13:19:02,618 - utils - INFO - Limpando dados...
+2026-01-29 13:19:50,081 - utils - WARNING -   711943 CNPJs inválidos encontrados
+2026-01-29 13:19:50,144 - utils - WARNING -   Valores nulos: 0
+2026-01-29 13:19:50,145 - utils - WARNING -   Valores negativos: 54686
+2026-01-29 13:19:50,147 - utils - WARNING -   Valores zerados: 235620
+2026-01-29 13:19:51,113 - utils - WARNING -   1 CNPJs com razões sociais diferentes
+2026-01-29 13:19:51,377 - utils - INFO - ✓ Limpeza concluída. 711943 registros com inconsistências
+2026-01-29 13:19:51,383 - utils - INFO - ✓ Consolidados 1 arquivos em 711943 registros
+2026-01-29 13:19:51,384 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-29 13:19:51,384 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-29 13:19:51,576 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 13:19:52,063 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-29 13:19:52,083 - utils - WARNING - Algumas colunas não foram mapeadas. Tentando identificação por posição...
+2026-01-29 13:19:52,093 - utils - INFO - ✓ Colunas normalizadas: ['CNPJ', 'RazaoSocial', 'Trimestre', 'Ano', 'ValorDespesas']
+2026-01-29 13:19:52,101 - utils - INFO - Limpando dados...
+2026-01-29 13:20:40,339 - utils - WARNING -   696591 CNPJs inválidos encontrados
+2026-01-29 13:20:40,403 - utils - WARNING -   Valores nulos: 0
+2026-01-29 13:20:40,404 - utils - WARNING -   Valores negativos: 52970
+2026-01-29 13:20:40,404 - utils - WARNING -   Valores zerados: 231893
+2026-01-29 13:20:41,363 - utils - WARNING -   1 CNPJs com razões sociais diferentes
+2026-01-29 13:20:41,624 - utils - INFO - ✓ Limpeza concluída. 696591 registros com inconsistências
+2026-01-29 13:20:41,629 - utils - INFO - ✓ Consolidados 1 arquivos em 696591 registros
+2026-01-29 13:20:41,630 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-29 13:20:41,630 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-29 13:20:41,815 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 13:20:42,295 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-29 13:20:42,316 - utils - WARNING - Algumas colunas não foram mapeadas. Tentando identificação por posição...
+2026-01-29 13:20:42,326 - utils - INFO - ✓ Colunas normalizadas: ['CNPJ', 'RazaoSocial', 'Trimestre', 'Ano', 'ValorDespesas']
+2026-01-29 13:20:42,334 - utils - INFO - Limpando dados...
+2026-01-29 13:21:29,050 - utils - WARNING -   705390 CNPJs inválidos encontrados
+2026-01-29 13:21:29,147 - utils - WARNING -   Valores nulos: 0
+2026-01-29 13:21:29,148 - utils - WARNING -   Valores negativos: 16787
+2026-01-29 13:21:29,149 - utils - WARNING -   Valores zerados: 510484
+2026-01-29 13:21:30,154 - utils - WARNING -   1 CNPJs com razões sociais diferentes
+2026-01-29 13:21:30,389 - utils - INFO - ✓ Limpeza concluída. 705390 registros com inconsistências
+2026-01-29 13:21:30,394 - utils - INFO - ✓ Consolidados 1 arquivos em 705390 registros
+2026-01-29 13:21:30,395 - utils - INFO - Consolidando 3 DataFrames...
+2026-01-29 13:21:32,758 - utils - INFO - ✓ Consolidação concluída: 2113924 registros
+2026-01-29 13:21:45,783 - utils - INFO - Arquivo final gerado: output\consolidado_despesas.zip
+2026-01-29 13:21:49,801 - utils - INFO - Etapa 1 concluída com sucesso. Arquivo: output\consolidado_despesas.zip
+2026-01-29 14:48:25,610 - utils - INFO - Downloader iniciado. Destino: data\raw
+2026-01-29 14:48:25,611 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-29 14:48:25,611 - utils - INFO - ======================================================================
+2026-01-29 14:48:25,612 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-29 14:48:25,612 - utils - INFO - ======================================================================
+2026-01-29 14:48:25,613 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-29 14:48:26,940 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-29 14:48:26,940 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-29 14:48:27,022 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 14:48:27,023 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-29 14:48:27,023 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-29 14:48:29,024 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-29 14:48:29,025 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-29 14:48:29,111 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 14:48:29,112 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-29 14:48:29,113 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-29 14:48:31,114 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-29 14:48:31,114 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-29 14:48:31,196 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-29 14:48:31,197 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-29 14:48:31,197 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-29 14:48:31,198 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-29 14:48:31,199 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-29 14:48:31,199 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-29 14:48:31,436 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 14:48:31,941 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-29 14:48:32,801 - utils - INFO - Cadastro ANS não encontrado. Baixando arquivo cadastral...
+2026-01-29 14:48:33,860 - utils - INFO - Cadastro ANS salvo em: data\cadastro_operadoras.csv
+2026-01-29 14:48:33,883 - utils - ERROR -   ✗ Erro ao processar 2025_Q3_3T2025.zip: 'RegistroANS'
+2026-01-29 14:48:33,898 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-29 14:48:33,899 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-29 14:48:34,100 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 14:48:34,601 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-29 14:48:35,459 - utils - ERROR -   ✗ Erro ao processar 2025_Q2_2T2025.zip: 'RegistroANS'
+2026-01-29 14:48:35,467 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-29 14:48:35,468 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-29 14:48:35,663 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-29 14:48:36,152 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-29 14:48:37,014 - utils - ERROR -   ✗ Erro ao processar 2025_Q1_1T2025.zip: 'RegistroANS'
+2026-01-29 14:48:37,025 - utils - ERROR - ERRO CRÍTICO na Etapa 1: Nenhum dado foi processado com sucesso!
+2026-01-29 14:48:37,025 - utils - ERROR - Erro fatal: Nenhum dado foi processado com sucesso!
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 333, in main
+    arquivo_gerado = integrador.executar(quantidade_trimestres=3)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 122, in executar
+    raise Exception("Nenhum dado foi processado com sucesso!")
+Exception: Nenhum dado foi processado com sucesso!
+2026-01-30 09:57:45,294 - utils - INFO - Downloader iniciado. Destino: data\raw
+2026-01-30 09:57:45,295 - utils - INFO - Processador iniciado. Diretório de extração: data\extracted
+2026-01-30 09:57:45,296 - utils - INFO - ======================================================================
+2026-01-30 09:57:45,297 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-30 09:57:45,297 - utils - INFO - ======================================================================
+2026-01-30 09:57:45,298 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-30 09:57:46,725 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-30 09:57:46,725 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-30 09:57:46,805 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 09:57:46,821 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-30 09:57:46,821 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-30 09:57:48,822 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-30 09:57:48,823 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-30 09:57:48,903 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 09:57:48,905 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-30 09:57:48,905 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-30 09:57:50,906 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-30 09:57:50,907 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-30 09:57:50,987 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 09:57:50,988 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-30 09:57:50,988 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-30 09:57:50,989 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-30 09:57:50,990 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-30 09:57:50,990 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-30 09:57:51,207 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 09:57:51,729 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-30 09:57:52,607 - utils - ERROR -   ✗ Erro ao processar 2025_Q3_3T2025.zip: 'RegistroANS'
+2026-01-30 09:57:52,617 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-30 09:57:52,617 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-30 09:57:52,829 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 09:57:53,333 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-30 09:57:54,175 - utils - ERROR -   ✗ Erro ao processar 2025_Q2_2T2025.zip: 'RegistroANS'
+2026-01-30 09:57:54,185 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-30 09:57:54,185 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-30 09:57:54,405 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 09:57:54,908 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-30 09:57:55,758 - utils - ERROR -   ✗ Erro ao processar 2025_Q1_1T2025.zip: 'RegistroANS'
+2026-01-30 09:57:55,767 - utils - ERROR - ERRO CRÍTICO na Etapa 1: Nenhum dado foi processado com sucesso!
+2026-01-30 09:57:55,768 - utils - ERROR - Erro fatal: Nenhum dado foi processado com sucesso!
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 333, in main
+    arquivo_gerado = integrador.executar(quantidade_trimestres=3)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 122, in executar
+    raise Exception("Nenhum dado foi processado com sucesso!")
+Exception: Nenhum dado foi processado com sucesso!
+2026-01-30 10:16:54,608 - utils - INFO - Downloader iniciado. Destino: C:\Users\dougl\DevProjects\projeto_healthtech\data\raw
+2026-01-30 10:16:54,609 - utils - INFO - Processador iniciado. Diretório de extração: C:\Users\dougl\DevProjects\projeto_healthtech\data\extracted
+2026-01-30 10:16:54,609 - utils - INFO - ======================================================================
+2026-01-30 10:16:54,610 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-30 10:16:54,610 - utils - INFO - ======================================================================
+2026-01-30 10:16:54,611 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-30 10:16:55,901 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-30 10:16:55,901 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-30 10:16:55,980 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 10:16:55,980 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-30 10:16:55,981 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-30 10:16:57,982 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-30 10:16:57,983 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-30 10:16:58,061 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 10:16:58,062 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-30 10:16:58,063 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-30 10:17:00,064 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-30 10:17:00,064 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-30 10:17:00,142 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 10:17:00,143 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-30 10:17:00,144 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-30 10:17:00,145 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-30 10:17:00,146 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-30 10:17:00,146 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-30 10:17:00,411 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 10:17:01,010 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-30 10:17:01,895 - utils - ERROR -   ✗ Erro ao processar 2025_Q3_3T2025.zip: 'RegistroANS'
+2026-01-30 10:17:01,908 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-30 10:17:01,908 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-30 10:17:02,126 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 10:17:02,626 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-30 10:17:03,448 - utils - ERROR -   ✗ Erro ao processar 2025_Q2_2T2025.zip: 'RegistroANS'
+2026-01-30 10:17:03,458 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-30 10:17:03,458 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-30 10:17:03,664 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 10:17:04,153 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-30 10:17:04,992 - utils - ERROR -   ✗ Erro ao processar 2025_Q1_1T2025.zip: 'RegistroANS'
+2026-01-30 10:17:05,002 - utils - ERROR - ERRO CRÍTICO na Etapa 1: Nenhum dado foi processado com sucesso!
+2026-01-30 10:17:05,003 - utils - ERROR - Erro fatal: Nenhum dado foi processado com sucesso!
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 335, in main
+    arquivo_gerado = integrador.executar(quantidade_trimestres=3)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\integracao_api\main.py", line 124, in executar
+    raise Exception("Nenhum dado foi processado com sucesso!")
+Exception: Nenhum dado foi processado com sucesso!
+2026-01-30 10:18:31,326 - utils - INFO - Downloader iniciado. Destino: C:\Users\dougl\DevProjects\projeto_healthtech\data\raw
+2026-01-30 10:18:31,327 - utils - INFO - Processador iniciado. Diretório de extração: C:\Users\dougl\DevProjects\projeto_healthtech\data\extracted
+2026-01-30 10:18:31,327 - utils - INFO - ======================================================================
+2026-01-30 10:18:31,327 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-30 10:18:31,327 - utils - INFO - ======================================================================
+2026-01-30 10:18:31,328 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-30 10:18:32,579 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-30 10:18:32,579 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-30 10:18:32,658 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 10:18:32,659 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-30 10:18:32,659 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-30 10:18:34,660 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-30 10:18:34,660 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-30 10:18:34,740 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 10:18:34,741 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-30 10:18:34,741 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-30 10:18:36,742 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-30 10:18:36,743 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-30 10:18:36,820 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-30 10:18:36,821 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-30 10:18:36,821 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-30 10:18:36,822 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-30 10:18:36,823 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-30 10:18:36,823 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-30 10:18:37,022 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 10:18:37,523 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-30 10:18:38,418 - utils - INFO - Limpando dados...
+2026-01-30 10:18:42,203 - utils - WARNING -   16201 CNPJs inválidos encontrados
+2026-01-30 10:18:42,209 - utils - WARNING -   Valores nulos: 0
+2026-01-30 10:18:42,210 - utils - WARNING -   Valores negativos: 1721
+2026-01-30 10:18:42,210 - utils - WARNING -   Valores zerados: 24425
+2026-01-30 10:18:42,246 - utils - INFO - ✓ Limpeza concluída. 34877 registros com inconsistências
+2026-01-30 10:18:42,248 - utils - INFO - ✓ Consolidados 1 arquivos em 59980 registros
+2026-01-30 10:18:42,249 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-30 10:18:42,249 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-30 10:18:42,469 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 10:18:42,961 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-30 10:18:43,829 - utils - INFO - Limpando dados...
+2026-01-30 10:18:47,467 - utils - WARNING -   16263 CNPJs inválidos encontrados
+2026-01-30 10:18:47,473 - utils - WARNING -   Valores nulos: 0
+2026-01-30 10:18:47,474 - utils - WARNING -   Valores negativos: 1787
+2026-01-30 10:18:47,474 - utils - WARNING -   Valores zerados: 23559
+2026-01-30 10:18:47,507 - utils - INFO - ✓ Limpeza concluída. 33951 registros com inconsistências
+2026-01-30 10:18:47,509 - utils - INFO - ✓ Consolidados 1 arquivos em 58514 registros
+2026-01-30 10:18:47,510 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-30 10:18:47,510 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-30 10:18:47,694 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-30 10:18:48,182 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-30 10:18:49,075 - utils - INFO - Limpando dados...
+2026-01-30 10:18:52,870 - utils - WARNING -   16776 CNPJs inválidos encontrados
+2026-01-30 10:18:52,877 - utils - WARNING -   Valores nulos: 0
+2026-01-30 10:18:52,877 - utils - WARNING -   Valores negativos: 1698
+2026-01-30 10:18:52,878 - utils - WARNING -   Valores zerados: 25887
+2026-01-30 10:18:52,910 - utils - INFO - ✓ Limpeza concluída. 35984 registros com inconsistências
+2026-01-30 10:18:52,913 - utils - INFO - ✓ Consolidados 1 arquivos em 59728 registros
+2026-01-30 10:18:52,914 - utils - INFO - Consolidando 3 DataFrames...
+2026-01-30 10:18:53,031 - utils - INFO -   Duplicatas removidas: 95579
+2026-01-30 10:18:53,057 - utils - INFO - ✓ Consolidação concluída: 82643 registros
+2026-01-30 10:18:53,477 - utils - INFO - Arquivo final gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.zip
+2026-01-30 10:18:53,592 - utils - INFO - Etapa 1 concluída com sucesso. Arquivo: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.zip
+2026-01-31 10:13:35,961 - utils - INFO - Downloader iniciado. Destino: C:\Users\dougl\DevProjects\projeto_healthtech\data\raw
+2026-01-31 10:13:35,962 - utils - INFO - Processador iniciado. Diretório de extração: C:\Users\dougl\DevProjects\projeto_healthtech\data\extracted
+2026-01-31 10:13:35,962 - utils - INFO - ======================================================================
+2026-01-31 10:13:35,962 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-31 10:13:35,962 - utils - INFO - ======================================================================
+2026-01-31 10:13:35,963 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-31 10:13:37,205 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-31 10:13:37,206 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-31 10:13:37,275 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-31 10:13:37,276 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-31 10:13:37,276 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-31 10:13:39,277 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-31 10:13:39,277 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-31 10:13:39,350 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-31 10:13:39,350 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-31 10:13:39,351 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-31 10:13:41,351 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-31 10:13:41,352 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-31 10:13:41,423 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-31 10:13:41,424 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-31 10:13:41,424 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-31 10:13:41,425 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-31 10:13:41,425 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-31 10:13:41,425 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-31 10:13:41,657 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-31 10:13:42,220 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-31 10:13:43,086 - utils - INFO - Limpando dados...
+2026-01-31 10:13:47,216 - utils - WARNING -   16201 CNPJs inválidos encontrados
+2026-01-31 10:13:47,223 - utils - WARNING -   Valores nulos: 0
+2026-01-31 10:13:47,223 - utils - WARNING -   Valores negativos: 1721
+2026-01-31 10:13:47,224 - utils - WARNING -   Valores zerados: 24425
+2026-01-31 10:13:47,264 - utils - INFO - ✓ Limpeza concluída. 34877 registros com inconsistências
+2026-01-31 10:13:47,266 - utils - INFO - ✓ Consolidados 1 arquivos em 59980 registros
+2026-01-31 10:13:47,267 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-31 10:13:47,267 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-31 10:13:47,513 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-31 10:13:48,078 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-31 10:13:48,928 - utils - INFO - Limpando dados...
+2026-01-31 10:13:52,728 - utils - WARNING -   16263 CNPJs inválidos encontrados
+2026-01-31 10:13:52,734 - utils - WARNING -   Valores nulos: 0
+2026-01-31 10:13:52,734 - utils - WARNING -   Valores negativos: 1787
+2026-01-31 10:13:52,735 - utils - WARNING -   Valores zerados: 23559
+2026-01-31 10:13:52,767 - utils - INFO - ✓ Limpeza concluída. 33951 registros com inconsistências
+2026-01-31 10:13:52,768 - utils - INFO - ✓ Consolidados 1 arquivos em 58514 registros
+2026-01-31 10:13:52,769 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-31 10:13:52,769 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-31 10:13:52,987 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-31 10:13:53,508 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-31 10:13:54,369 - utils - INFO - Limpando dados...
+2026-01-31 10:13:58,265 - utils - WARNING -   16776 CNPJs inválidos encontrados
+2026-01-31 10:13:58,273 - utils - WARNING -   Valores nulos: 0
+2026-01-31 10:13:58,274 - utils - WARNING -   Valores negativos: 1698
+2026-01-31 10:13:58,274 - utils - WARNING -   Valores zerados: 25887
+2026-01-31 10:13:58,306 - utils - INFO - ✓ Limpeza concluída. 35984 registros com inconsistências
+2026-01-31 10:13:58,308 - utils - INFO - ✓ Consolidados 1 arquivos em 59728 registros
+2026-01-31 10:13:58,308 - utils - INFO - Consolidando 3 DataFrames...
+2026-01-31 10:13:58,420 - utils - INFO -   Duplicatas removidas: 95579
+2026-01-31 10:13:58,446 - utils - INFO - ✓ Consolidação concluída: 82643 registros
+2026-01-31 10:13:58,761 - utils - INFO - Arquivo final gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.zip
+2026-01-31 10:13:58,849 - utils - INFO - Relatório de inconsistências salvo em: C:\Users\dougl\DevProjects\projeto_healthtech\output\inconsistencias_despesas.csv
+2026-01-31 10:13:58,962 - utils - INFO - Etapa 1 concluída com sucesso. Arquivo: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.zip
+2026-01-31 16:46:13,155 - utils - INFO - Downloader iniciado. Destino: C:\Users\dougl\DevProjects\projeto_healthtech\data\raw
+2026-01-31 16:46:13,156 - utils - INFO - Processador iniciado. Diretório de extração: C:\Users\dougl\DevProjects\projeto_healthtech\data\extracted
+2026-01-31 16:46:13,156 - utils - INFO - ======================================================================
+2026-01-31 16:46:13,156 - utils - INFO - INICIANDO ETAPA 1: INTEGRAÇÃO COM API ANS
+2026-01-31 16:46:13,156 - utils - INFO - ======================================================================
+2026-01-31 16:46:13,157 - utils - INFO - === Iniciando download dos últimos 3 trimestres ===
+2026-01-31 16:46:14,309 - utils - INFO - === Iniciando download do trimestre 2025/Q3 ===
+2026-01-31 16:46:14,309 - utils - INFO - Listando arquivos do trimestre 2025/Q3
+2026-01-31 16:46:14,368 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-31 16:46:14,370 - utils - INFO - Arquivo já existe: 2025_Q3_3T2025.zip (9.02 MB)
+2026-01-31 16:46:14,370 - utils - INFO - ✓ Trimestre 2025/Q3: 1/1 arquivos baixados
+2026-01-31 16:46:16,371 - utils - INFO - === Iniciando download do trimestre 2025/Q2 ===
+2026-01-31 16:46:16,372 - utils - INFO - Listando arquivos do trimestre 2025/Q2
+2026-01-31 16:46:16,434 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-31 16:46:16,436 - utils - INFO - Arquivo já existe: 2025_Q2_2T2025.zip (8.80 MB)
+2026-01-31 16:46:16,436 - utils - INFO - ✓ Trimestre 2025/Q2: 1/1 arquivos baixados
+2026-01-31 16:46:18,438 - utils - INFO - === Iniciando download do trimestre 2025/Q1 ===
+2026-01-31 16:46:18,438 - utils - INFO - Listando arquivos do trimestre 2025/Q1
+2026-01-31 16:46:18,499 - utils - INFO - Encontrados 1 arquivos relevantes
+2026-01-31 16:46:18,500 - utils - INFO - Arquivo já existe: 2025_Q1_1T2025.zip (7.95 MB)
+2026-01-31 16:46:18,500 - utils - INFO - ✓ Trimestre 2025/Q1: 1/1 arquivos baixados
+2026-01-31 16:46:18,501 - utils - INFO - Download concluído. Total: 3 arquivos
+2026-01-31 16:46:18,502 - utils - INFO - Processando arquivo: 2025_Q3_3T2025.zip
+2026-01-31 16:46:18,502 - utils - INFO - Extraindo: 2025_Q3_3T2025.zip
+2026-01-31 16:46:18,747 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-31 16:46:19,329 - utils - INFO - ✓ Arquivo lido: 3T2025.csv (711943 linhas, 6 colunas)
+2026-01-31 16:46:20,229 - utils - INFO - Limpando dados...
+2026-01-31 16:46:24,269 - utils - WARNING -   16201 CNPJs inválidos encontrados
+2026-01-31 16:46:24,277 - utils - WARNING -   Valores nulos: 0
+2026-01-31 16:46:24,278 - utils - WARNING -   Valores negativos: 1721
+2026-01-31 16:46:24,278 - utils - WARNING -   Valores zerados: 24425
+2026-01-31 16:46:24,312 - utils - INFO - ✓ Limpeza concluída. 34877 registros com inconsistências
+2026-01-31 16:46:24,313 - utils - INFO - ✓ Consolidados 1 arquivos em 59980 registros
+2026-01-31 16:46:24,314 - utils - INFO - Processando arquivo: 2025_Q2_2T2025.zip
+2026-01-31 16:46:24,315 - utils - INFO - Extraindo: 2025_Q2_2T2025.zip
+2026-01-31 16:46:24,581 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-31 16:46:25,147 - utils - INFO - ✓ Arquivo lido: 2T2025.csv (696591 linhas, 6 colunas)
+2026-01-31 16:46:26,021 - utils - INFO - Limpando dados...
+2026-01-31 16:46:29,728 - utils - WARNING -   16263 CNPJs inválidos encontrados
+2026-01-31 16:46:29,735 - utils - WARNING -   Valores nulos: 0
+2026-01-31 16:46:29,735 - utils - WARNING -   Valores negativos: 1787
+2026-01-31 16:46:29,735 - utils - WARNING -   Valores zerados: 23559
+2026-01-31 16:46:29,767 - utils - INFO - ✓ Limpeza concluída. 33951 registros com inconsistências
+2026-01-31 16:46:29,768 - utils - INFO - ✓ Consolidados 1 arquivos em 58514 registros
+2026-01-31 16:46:29,769 - utils - INFO - Processando arquivo: 2025_Q1_1T2025.zip
+2026-01-31 16:46:29,770 - utils - INFO - Extraindo: 2025_Q1_1T2025.zip
+2026-01-31 16:46:29,981 - utils - INFO - ✓ Extraídos 1 arquivos
+2026-01-31 16:46:30,548 - utils - INFO - ✓ Arquivo lido: 1T2025.csv (705390 linhas, 6 colunas)
+2026-01-31 16:46:31,419 - utils - INFO - Limpando dados...
+2026-01-31 16:46:35,235 - utils - WARNING -   16776 CNPJs inválidos encontrados
+2026-01-31 16:46:35,241 - utils - WARNING -   Valores nulos: 0
+2026-01-31 16:46:35,242 - utils - WARNING -   Valores negativos: 1698
+2026-01-31 16:46:35,242 - utils - WARNING -   Valores zerados: 25887
+2026-01-31 16:46:35,274 - utils - INFO - ✓ Limpeza concluída. 35984 registros com inconsistências
+2026-01-31 16:46:35,276 - utils - INFO - ✓ Consolidados 1 arquivos em 59728 registros
+2026-01-31 16:46:35,277 - utils - INFO - Consolidando 3 DataFrames...
+2026-01-31 16:46:35,393 - utils - INFO -   Duplicatas removidas: 95579
+2026-01-31 16:46:35,418 - utils - INFO - ✓ Consolidação concluída: 82643 registros
+2026-01-31 16:46:35,742 - utils - INFO - Arquivo final gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.zip
+2026-01-31 16:46:35,825 - utils - INFO - Relatório de inconsistências salvo em: C:\Users\dougl\DevProjects\projeto_healthtech\output\inconsistencias_despesas.csv
+2026-01-31 16:46:35,944 - utils - INFO - Etapa 1 concluída com sucesso. Arquivo: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.zip

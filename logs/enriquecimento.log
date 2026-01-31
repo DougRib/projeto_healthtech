@@ -1,0 +1,42 @@
+2026-01-30 10:21:29,333 - integracao_api.utils - INFO - ======================================================================
+2026-01-30 10:21:29,333 - integracao_api.utils - INFO - INICIANDO ETAPA 2.2: ENRIQUECIMENTO DE DADOS
+2026-01-30 10:21:29,333 - integracao_api.utils - INFO - ======================================================================
+2026-01-30 10:21:29,334 - integracao_api.utils - INFO - Carregando: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_validados.csv
+2026-01-30 10:21:29,533 - integracao_api.utils - INFO - Despesas carregadas: 82643 registros
+2026-01-30 10:21:29,546 - integracao_api.utils - INFO - Iniciando download de dados cadastrais
+2026-01-30 10:21:30,034 - integracao_api.utils - INFO - Arquivo cadastral: Relatorio_cadop.csv
+2026-01-30 10:21:30,635 - integracao_api.utils - INFO - Arquivo cadastral baixado: C:\Users\dougl\DevProjects\projeto_healthtech\data\cadastro_operadoras.csv
+2026-01-30 10:21:30,638 - integracao_api.utils - INFO - Carregando cadastro de: C:\Users\dougl\DevProjects\projeto_healthtech\data\cadastro_operadoras.csv
+2026-01-30 10:21:30,659 - integracao_api.utils - INFO - Cadastro carregado: 1110 operadoras
+2026-01-30 10:21:30,666 - integracao_api.utils - INFO - Iniciando join LEFT entre despesas e cadastro
+2026-01-30 10:21:30,802 - integracao_api.utils - INFO - Join concluído: 0 matches, 82643 sem match
+2026-01-30 10:21:30,826 - integracao_api.utils - INFO - Relatório de enriquecimento gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_enriquecimento.txt
+2026-01-30 10:21:31,369 - integracao_api.utils - INFO - Dados enriquecidos salvos: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_enriquecidos.csv
+2026-01-31 10:15:23,162 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 10:15:23,163 - integracao_api.utils - INFO - INICIANDO ETAPA 2.2: ENRIQUECIMENTO DE DADOS
+2026-01-31 10:15:23,163 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 10:15:23,163 - integracao_api.utils - INFO - Carregando: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_validados.csv
+2026-01-31 10:15:23,315 - integracao_api.utils - INFO - Despesas carregadas: 82643 registros
+2026-01-31 10:15:23,316 - integracao_api.utils - INFO - Iniciando download de dados cadastrais
+2026-01-31 10:15:23,912 - integracao_api.utils - INFO - Arquivo cadastral: Relatorio_cadop.csv
+2026-01-31 10:15:24,483 - integracao_api.utils - INFO - Arquivo cadastral baixado: C:\Users\dougl\DevProjects\projeto_healthtech\data\cadastro_operadoras.csv
+2026-01-31 10:15:24,487 - integracao_api.utils - INFO - Carregando cadastro de: C:\Users\dougl\DevProjects\projeto_healthtech\data\cadastro_operadoras.csv
+2026-01-31 10:15:24,506 - integracao_api.utils - INFO - Cadastro carregado: 1110 operadoras
+2026-01-31 10:15:24,513 - integracao_api.utils - INFO - Iniciando join LEFT entre despesas e cadastro
+2026-01-31 10:15:24,649 - integracao_api.utils - INFO - Join concluído: 0 matches, 82643 sem match
+2026-01-31 10:15:24,673 - integracao_api.utils - INFO - Relatório de enriquecimento gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_enriquecimento.txt
+2026-01-31 10:15:25,151 - integracao_api.utils - INFO - Dados enriquecidos salvos: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_enriquecidos.csv
+2026-01-31 16:47:05,934 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 16:47:05,935 - integracao_api.utils - INFO - INICIANDO ETAPA 2.2: ENRIQUECIMENTO DE DADOS
+2026-01-31 16:47:05,935 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 16:47:05,935 - integracao_api.utils - INFO - Carregando: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_validados.csv
+2026-01-31 16:47:06,082 - integracao_api.utils - INFO - Despesas carregadas: 82643 registros
+2026-01-31 16:47:06,083 - integracao_api.utils - INFO - Iniciando download de dados cadastrais
+2026-01-31 16:47:06,551 - integracao_api.utils - INFO - Arquivo cadastral: Relatorio_cadop.csv
+2026-01-31 16:47:07,109 - integracao_api.utils - INFO - Arquivo cadastral baixado: C:\Users\dougl\DevProjects\projeto_healthtech\data\cadastro_operadoras.csv
+2026-01-31 16:47:07,112 - integracao_api.utils - INFO - Carregando cadastro de: C:\Users\dougl\DevProjects\projeto_healthtech\data\cadastro_operadoras.csv
+2026-01-31 16:47:07,135 - integracao_api.utils - INFO - Cadastro carregado: 1110 operadoras
+2026-01-31 16:47:07,142 - integracao_api.utils - INFO - Iniciando join LEFT entre despesas e cadastro
+2026-01-31 16:47:07,280 - integracao_api.utils - INFO - Join concluído: 0 matches, 82643 sem match
+2026-01-31 16:47:07,303 - integracao_api.utils - INFO - Relatório de enriquecimento gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_enriquecimento.txt
+2026-01-31 16:47:07,814 - integracao_api.utils - INFO - Dados enriquecidos salvos: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_enriquecidos.csv

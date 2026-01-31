@@ -1,0 +1,48 @@
+2026-01-30 10:22:36,210 - integracao_api.utils - INFO - ======================================================================
+2026-01-30 10:22:36,210 - integracao_api.utils - INFO - INICIANDO ETAPA 2.3: AGREGAÇÃO E ESTATÍSTICAS
+2026-01-30 10:22:36,210 - integracao_api.utils - INFO - ======================================================================
+2026-01-30 10:22:36,210 - integracao_api.utils - INFO - Carregando: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_enriquecidos.csv
+2026-01-30 10:22:36,408 - integracao_api.utils - INFO - Dados carregados: 82643 registros
+2026-01-30 10:22:36,409 - integracao_api.utils - INFO - Iniciando preparação de dados
+2026-01-30 10:22:36,434 - integracao_api.utils - WARNING - Registros removidos: 2410
+2026-01-30 10:22:36,448 - integracao_api.utils - INFO - Preparação concluída: 80233 registros válidos
+2026-01-30 10:22:36,449 - integracao_api.utils - INFO - Iniciando agregação
+2026-01-30 10:22:36,483 - integracao_api.utils - INFO - Agregação concluída: 734 grupos
+2026-01-30 10:22:36,484 - integracao_api.utils - INFO - Ordenando por TotalDespesas
+2026-01-30 10:22:36,486 - integracao_api.utils - INFO - Ordenação concluída
+2026-01-30 10:22:36,491 - integracao_api.utils - INFO - Análise estatística gerada
+2026-01-30 10:22:36,496 - integracao_api.utils - INFO - Relatório gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_agregacao.txt
+2026-01-30 10:22:36,505 - integracao_api.utils - INFO - Dados agregados salvos: C:\Users\dougl\DevProjects\projeto_healthtech\output\despesas_agregadas.csv
+2026-01-30 10:22:36,522 - integracao_api.utils - INFO - Arquivo compactado: C:\Users\dougl\DevProjects\projeto_healthtech\output\Teste_Douglas_Ribeiro.zip
+2026-01-31 10:15:35,281 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 10:15:35,282 - integracao_api.utils - INFO - INICIANDO ETAPA 2.3: AGREGAÇÃO E ESTATÍSTICAS
+2026-01-31 10:15:35,282 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 10:15:35,283 - integracao_api.utils - INFO - Carregando: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_enriquecidos.csv
+2026-01-31 10:15:35,458 - integracao_api.utils - INFO - Dados carregados: 82643 registros
+2026-01-31 10:15:35,458 - integracao_api.utils - INFO - Iniciando preparação de dados
+2026-01-31 10:15:35,479 - integracao_api.utils - WARNING - Registros removidos: 2410
+2026-01-31 10:15:35,498 - integracao_api.utils - INFO - Preparação concluída: 80233 registros válidos
+2026-01-31 10:15:35,498 - integracao_api.utils - INFO - Iniciando agregação
+2026-01-31 10:15:35,542 - integracao_api.utils - INFO - Agregação concluída: 734 grupos
+2026-01-31 10:15:35,542 - integracao_api.utils - INFO - Ordenando por TotalDespesas
+2026-01-31 10:15:35,544 - integracao_api.utils - INFO - Ordenação concluída
+2026-01-31 10:15:35,549 - integracao_api.utils - INFO - Análise estatística gerada
+2026-01-31 10:15:35,553 - integracao_api.utils - INFO - Relatório gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_agregacao.txt
+2026-01-31 10:15:35,562 - integracao_api.utils - INFO - Dados agregados salvos: C:\Users\dougl\DevProjects\projeto_healthtech\output\despesas_agregadas.csv
+2026-01-31 10:15:35,581 - integracao_api.utils - INFO - Arquivo compactado: C:\Users\dougl\DevProjects\projeto_healthtech\output\Teste_Douglas_Ribeiro.zip
+2026-01-31 16:47:20,842 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 16:47:20,842 - integracao_api.utils - INFO - INICIANDO ETAPA 2.3: AGREGAÇÃO E ESTATÍSTICAS
+2026-01-31 16:47:20,842 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 16:47:20,843 - integracao_api.utils - INFO - Carregando: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_enriquecidos.csv
+2026-01-31 16:47:21,006 - integracao_api.utils - INFO - Dados carregados: 82643 registros
+2026-01-31 16:47:21,006 - integracao_api.utils - INFO - Iniciando preparação de dados
+2026-01-31 16:47:21,026 - integracao_api.utils - WARNING - Registros removidos: 2410
+2026-01-31 16:47:21,040 - integracao_api.utils - INFO - Preparação concluída: 80233 registros válidos
+2026-01-31 16:47:21,040 - integracao_api.utils - INFO - Iniciando agregação
+2026-01-31 16:47:21,077 - integracao_api.utils - INFO - Agregação concluída: 734 grupos
+2026-01-31 16:47:21,078 - integracao_api.utils - INFO - Ordenando por TotalDespesas
+2026-01-31 16:47:21,080 - integracao_api.utils - INFO - Ordenação concluída
+2026-01-31 16:47:21,087 - integracao_api.utils - INFO - Análise estatística gerada
+2026-01-31 16:47:21,091 - integracao_api.utils - INFO - Relatório gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_agregacao.txt
+2026-01-31 16:47:21,102 - integracao_api.utils - INFO - Dados agregados salvos: C:\Users\dougl\DevProjects\projeto_healthtech\output\despesas_agregadas.csv
+2026-01-31 16:47:21,118 - integracao_api.utils - INFO - Arquivo compactado: C:\Users\dougl\DevProjects\projeto_healthtech\output\Teste_Douglas_Ribeiro.zip

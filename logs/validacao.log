@@ -1,0 +1,212 @@
+2026-01-29 13:23:42,376 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 13:23:42,377 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-29 13:23:42,377 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 13:23:42,377 - integracao_api.utils - INFO - Carregando dados de: ..\etapa1_integracao_api\output\consolidado_despesas.csv
+2026-01-29 13:23:42,378 - integracao_api.utils - ERROR - Erro ao carregar dados: [Errno 2] No such file or directory: '..\\etapa1_integracao_api\\output\\consolidado_despesas.csv'
+2026-01-29 13:23:42,378 - integracao_api.utils - ERROR - Erro na validação: [Errno 2] No such file or directory: '..\\etapa1_integracao_api\\output\\consolidado_despesas.csv'
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\transformacao\validacao.py", line 395, in main
+    validador.carregar_dados()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\transformacao\validacao.py", line 72, in carregar_dados
+    self.df = pd.read_csv(
+              ~~~~~~~~~~~^
+        self.arquivo_entrada,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        low_memory=False
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\common.py", line 935, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '..\\etapa1_integracao_api\\output\\consolidado_despesas.csv'
+2026-01-29 13:33:17,894 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 13:33:17,894 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-29 13:33:17,894 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 13:33:17,894 - integracao_api.utils - INFO - Carregando dados de: ..\integracao_api\output\consolidado_despesas.csv
+2026-01-29 13:33:17,895 - integracao_api.utils - ERROR - Erro ao carregar dados: [Errno 2] No such file or directory: '..\\integracao_api\\output\\consolidado_despesas.csv'
+2026-01-29 13:33:17,895 - integracao_api.utils - ERROR - Erro na validação: [Errno 2] No such file or directory: '..\\integracao_api\\output\\consolidado_despesas.csv'
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\transformacao\validacao.py", line 395, in main
+    validador.carregar_dados()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\transformacao\validacao.py", line 72, in carregar_dados
+    self.df = pd.read_csv(
+              ~~~~~~~~~~~^
+        self.arquivo_entrada,
+        ^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        low_memory=False
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 873, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 300, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1645, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1904, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\io\common.py", line 935, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '..\\integracao_api\\output\\consolidado_despesas.csv'
+2026-01-29 13:34:20,863 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 13:34:20,864 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-29 13:34:20,864 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 13:34:20,864 - integracao_api.utils - INFO - Carregando dados de: output\consolidado_despesas.csv
+2026-01-29 13:34:23,169 - integracao_api.utils - INFO - Dados carregados: 2113924 registros
+2026-01-29 13:34:23,170 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-29 14:05:45,766 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 14:05:45,766 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-29 14:05:45,766 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 14:05:45,767 - integracao_api.utils - INFO - Carregando dados de: output\consolidado_despesas.csv
+2026-01-29 14:05:48,214 - integracao_api.utils - INFO - Dados carregados: 2113924 registros
+2026-01-29 14:05:48,214 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-29 14:05:50,239 - integracao_api.utils - ERROR - Erro na validação: Invalid value '<StringArray>
+[]
+Length: 0, dtype: str' for dtype 'bool'
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\internals\blocks.py", line 1115, in setitem
+    casted = np_can_hold_element(values.dtype, value)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\dtypes\cast.py", line 1827, in np_can_hold_element
+    raise LossySetitemError
+pandas.errors.LossySetitemError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\transformacao\validacao.py", line 401, in main
+    validador.validar_cnpjs()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\transformacao\validacao.py", line 161, in validar_cnpjs
+    self.df.loc[mask_formato_valido, 'cnpj_digitos_validos'] = (
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\indexing.py", line 938, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\indexing.py", line 1953, in _setitem_with_indexer
+    self._setitem_with_indexer_split_path(indexer, value, name)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\indexing.py", line 1997, in _setitem_with_indexer_split_path
+    self._setitem_single_column(ilocs[0], value, pi)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\indexing.py", line 2181, in _setitem_single_column
+    self.obj._mgr.column_setitem(loc, plane_indexer, value)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\internals\managers.py", line 1503, in column_setitem
+    new_mgr = col_mgr.setitem((idx,), value)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\internals\managers.py", line 604, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\internals\managers.py", line 442, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\internals\blocks.py", line 1118, in setitem
+    nb = self.coerce_to_target_dtype(value, raise_on_upcast=True)
+  File "C:\Users\dougl\DevProjects\projeto_healthtech\venv\Lib\site-packages\pandas\core\internals\blocks.py", line 468, in coerce_to_target_dtype
+    raise TypeError(f"Invalid value '{other}' for dtype '{self.values.dtype}'")
+TypeError: Invalid value '<StringArray>
+[]
+Length: 0, dtype: str' for dtype 'bool'
+2026-01-29 14:06:43,420 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 14:06:43,420 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-29 14:06:43,420 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 14:06:43,420 - integracao_api.utils - INFO - Carregando dados de: output\consolidado_despesas.csv
+2026-01-29 14:06:45,647 - integracao_api.utils - INFO - Dados carregados: 2113924 registros
+2026-01-29 14:06:45,647 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-29 14:06:58,629 - integracao_api.utils - INFO - Validação de CNPJs concluída: 0 válidos, 2113924 inválidos
+2026-01-29 14:06:58,630 - integracao_api.utils - INFO - Iniciando validação de valores
+2026-01-29 14:06:58,650 - integracao_api.utils - INFO - Validação de valores concluída: 1989481 válidos
+2026-01-29 14:06:58,650 - integracao_api.utils - INFO - Iniciando validação de razões sociais
+2026-01-29 14:06:59,745 - integracao_api.utils - INFO - Validação de razões sociais concluída: 2113924 válidas
+2026-01-29 14:06:59,746 - integracao_api.utils - INFO - Iniciando validação de datas
+2026-01-29 14:06:59,771 - integracao_api.utils - INFO - Validação de datas concluída
+2026-01-29 14:06:59,789 - integracao_api.utils - INFO - Relatório de qualidade gerado: output\relatorio_validacao.txt
+2026-01-29 14:07:12,722 - integracao_api.utils - INFO - Dados validados salvos em: output\dados_validados.csv
+2026-01-29 14:46:56,317 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 14:46:56,317 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-29 14:46:56,317 - integracao_api.utils - INFO - ======================================================================
+2026-01-29 14:46:56,317 - integracao_api.utils - INFO - Carregando dados de: output\consolidado_despesas.csv
+2026-01-29 14:46:58,663 - integracao_api.utils - INFO - Dados carregados: 2113924 registros
+2026-01-29 14:46:58,663 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-29 14:47:12,038 - integracao_api.utils - INFO - Validação de CNPJs concluída: 0 válidos, 2113924 inválidos
+2026-01-29 14:47:12,038 - integracao_api.utils - INFO - Iniciando validação de valores
+2026-01-29 14:47:12,059 - integracao_api.utils - INFO - Validação de valores concluída: 1989481 válidos
+2026-01-29 14:47:12,060 - integracao_api.utils - INFO - Iniciando validação de razões sociais
+2026-01-29 14:47:13,153 - integracao_api.utils - INFO - Validação de razões sociais concluída: 2113924 válidas
+2026-01-29 14:47:13,153 - integracao_api.utils - INFO - Iniciando validação de datas
+2026-01-29 14:47:13,179 - integracao_api.utils - INFO - Validação de datas concluída
+2026-01-29 14:47:13,196 - integracao_api.utils - INFO - Relatório de qualidade gerado: output\relatorio_validacao.txt
+2026-01-29 14:47:26,239 - integracao_api.utils - INFO - Dados validados salvos em: output\dados_validados.csv
+2026-01-30 10:19:55,377 - integracao_api.utils - INFO - ======================================================================
+2026-01-30 10:19:55,377 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-30 10:19:55,378 - integracao_api.utils - INFO - ======================================================================
+2026-01-30 10:19:55,378 - integracao_api.utils - INFO - Carregando dados de: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.csv
+2026-01-30 10:19:55,473 - integracao_api.utils - INFO - Dados carregados: 82643 registros
+2026-01-30 10:19:55,473 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-30 10:19:56,153 - integracao_api.utils - INFO - Validação de CNPJs concluída: 3163 válidos, 79480 inválidos
+2026-01-30 10:19:56,153 - integracao_api.utils - INFO - Iniciando validação de valores
+2026-01-30 10:19:56,156 - integracao_api.utils - INFO - Validação de valores concluída: 80233 válidos
+2026-01-30 10:19:56,157 - integracao_api.utils - INFO - Iniciando validação de razões sociais
+2026-01-30 10:19:56,189 - integracao_api.utils - INFO - Validação de razões sociais concluída: 82130 válidas
+2026-01-30 10:19:56,190 - integracao_api.utils - INFO - Iniciando validação de datas
+2026-01-30 10:19:56,192 - integracao_api.utils - INFO - Validação de datas concluída
+2026-01-30 10:19:56,194 - integracao_api.utils - INFO - Relatório de qualidade gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_validacao.txt
+2026-01-30 10:19:56,692 - integracao_api.utils - INFO - Dados validados salvos em: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_validados.csv
+2026-01-31 10:15:06,009 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 10:15:06,010 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-31 10:15:06,010 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 10:15:06,010 - integracao_api.utils - INFO - Carregando dados de: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.csv
+2026-01-31 10:15:06,078 - integracao_api.utils - INFO - Dados carregados: 82643 registros
+2026-01-31 10:15:06,079 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-31 10:15:06,802 - integracao_api.utils - INFO - Validação de CNPJs concluída: 3163 válidos, 79480 inválidos
+2026-01-31 10:15:06,802 - integracao_api.utils - INFO - Iniciando validação de valores
+2026-01-31 10:15:06,805 - integracao_api.utils - INFO - Validação de valores concluída: 80233 válidos
+2026-01-31 10:15:06,806 - integracao_api.utils - INFO - Iniciando validação de razões sociais
+2026-01-31 10:15:06,839 - integracao_api.utils - INFO - Validação de razões sociais concluída: 82130 válidas
+2026-01-31 10:15:06,840 - integracao_api.utils - INFO - Iniciando validação de datas
+2026-01-31 10:15:06,842 - integracao_api.utils - INFO - Validação de datas concluída
+2026-01-31 10:15:06,845 - integracao_api.utils - INFO - Relatório de qualidade gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_validacao.txt
+2026-01-31 10:15:07,251 - integracao_api.utils - INFO - Dados validados salvos em: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_validados.csv
+2026-01-31 16:46:54,028 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 16:46:54,028 - integracao_api.utils - INFO - INICIANDO ETAPA 2.1: VALIDAÇÃO DE DADOS
+2026-01-31 16:46:54,028 - integracao_api.utils - INFO - ======================================================================
+2026-01-31 16:46:54,028 - integracao_api.utils - INFO - Carregando dados de: C:\Users\dougl\DevProjects\projeto_healthtech\output\consolidado_despesas.csv
+2026-01-31 16:46:54,091 - integracao_api.utils - INFO - Dados carregados: 82643 registros
+2026-01-31 16:46:54,091 - integracao_api.utils - INFO - Iniciando validação de CNPJs
+2026-01-31 16:46:54,758 - integracao_api.utils - INFO - Validação de CNPJs concluída: 3163 válidos, 79480 inválidos
+2026-01-31 16:46:54,759 - integracao_api.utils - INFO - Iniciando validação de valores
+2026-01-31 16:46:54,761 - integracao_api.utils - INFO - Validação de valores concluída: 80233 válidos
+2026-01-31 16:46:54,762 - integracao_api.utils - INFO - Iniciando validação de razões sociais
+2026-01-31 16:46:54,794 - integracao_api.utils - INFO - Validação de razões sociais concluída: 82130 válidas
+2026-01-31 16:46:54,794 - integracao_api.utils - INFO - Iniciando validação de datas
+2026-01-31 16:46:54,796 - integracao_api.utils - INFO - Validação de datas concluída
+2026-01-31 16:46:54,799 - integracao_api.utils - INFO - Relatório de qualidade gerado: C:\Users\dougl\DevProjects\projeto_healthtech\output\relatorio_validacao.txt
+2026-01-31 16:46:55,200 - integracao_api.utils - INFO - Dados validados salvos em: C:\Users\dougl\DevProjects\projeto_healthtech\output\dados_validados.csv

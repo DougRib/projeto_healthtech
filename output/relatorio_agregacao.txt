@@ -1,0 +1,38 @@
+======================================================================
+RELATÓRIO DE AGREGAÇÃO E ESTATÍSTICAS - ETAPA 2.3
+======================================================================
+
+Data/Hora: 31/01/2026 16:47:21
+
+ESTATÍSTICAS GERAIS:
+----------------------------------------------------------------------
+Total de grupos (Operadora/UF): 734
+UFs únicas: 1
+Soma total de despesas: R$ 2,263,555,701,198.22
+
+MÉTRICAS DE DESPESAS:
+----------------------------------------------------------------------
+Média: R$ 3,083,863,353.13
+Mediana: R$ 413,819,408.28
+Mínimo: R$ 0.00
+Máximo: R$ 275,086,229,759.03
+Desvio Padrão: R$ 16,437,726,928.95
+
+TOP 10 OPERADORAS:
+----------------------------------------------------------------------
+1º. BRADESCO SAÚDE S.A. (NÃO_INFORMADO) - R$ 275,086,229,759.03
+2º. SUL AMERICA COMPANHIA DE SEGURO SAÚDE (NÃO_INFORMADO) - R$ 224,308,534,127.14
+3º. AMIL ASSISTÊNCIA MÉDICA INTERNACIONAL S.A. (NÃO_INFORMADO) - R$ 195,099,020,481.89
+4º. HAPVIDA ASSISTENCIA MEDICA S.A. (NÃO_INFORMADO) - R$ 86,902,748,974.44
+5º. NOTRE DAME INTERMÉDICA SAÚDE S.A. (NÃO_INFORMADO) - R$ 85,313,128,391.60
+6º. UNIMED NACIONAL - COOPERATIVA CENTRAL (NÃO_INFORMADO) - R$ 56,543,424,571.28
+7º. CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL (NÃO_INFORMADO) - R$ 56,171,250,231.78
+8º. PORTO SEGURO - SEGURO SAÚDE S/A (NÃO_INFORMADO) - R$ 50,360,830,855.59
+9º. GEAP AUTOGESTÃO EM SAÚDE (NÃO_INFORMADO) - R$ 44,240,493,819.91
+10º. UNIMED DE CIANORTE - COOPERATIVA DE TRABALHO MEDICO (NÃO_INFORMADO) - R$ 43,114,415,714.58
+
+TOP 5 UFS:
+----------------------------------------------------------------------
+1º. NÃO_INFORMADO - R$ 2,263,555,701,198.22
+
+======================================================================
